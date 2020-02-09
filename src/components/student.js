@@ -35,14 +35,17 @@ class Student extends React.Component {
   render() {
     return (
       <div>
+        <hr />
         <form onSubmit={this.handleSubmit}>
+          <label htmlFor="name">Name : </label>
           <input
             type="text"
+            id="name"
             value={this.state.value}
             onChange={this.handleChange}
           />
           <p> {this.state.value}</p>
-          <button type="submit">Save details </button>
+          <button type="submit">Add details </button>
         </form>
       </div>
     );
