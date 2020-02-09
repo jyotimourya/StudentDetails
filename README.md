@@ -1,2 +1,0 @@
-# StudentDetails
-Created with CodeSandbox
